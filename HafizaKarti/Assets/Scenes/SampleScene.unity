@@ -4668,6 +4668,7 @@ MonoBehaviour:
   - {fileID: 1906562083}
   - {fileID: 589848595}
   - {fileID: 1685298722}
+  countScript: {fileID: 109108548}
 --- !u!1 &1797731207
 GameObject:
   m_ObjectHideFlags: 0

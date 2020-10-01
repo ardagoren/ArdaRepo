@@ -25,9 +25,11 @@ public class cardScript : MonoBehaviour
     {
         if (!gameObject.active == true)
         {
-            gameObject.SetActive(true);            
-            countScript.count++;
-            
+
+            countScript.countla();          
+            countScript.count++;           
+            gameObject.SetActive(true);
+
         }
       
 

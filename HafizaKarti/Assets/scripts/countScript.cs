@@ -9,6 +9,7 @@ public class countScript : MonoBehaviour
     
     
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,19 +23,21 @@ public class countScript : MonoBehaviour
         countla();
     }
 
-   
+    
     public void countla()
     {
         if (count == 3)
         {
+            
             for (int i = 0; i < 20; i++)
             {
 
                 gameObjects[i].SetActive(false);
                 
 
-            }
+            }           
             count = 0;
+            
 
         }
     }
